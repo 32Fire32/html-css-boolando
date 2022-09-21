@@ -8,8 +8,11 @@
 /* COMMON */
 
 .container {
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* TYPOGRAPHY */
@@ -26,7 +29,7 @@ a {
 }
 
 i {
-    margin: 0 5px;
+    margin-right:5px;
 }
 
 /* HEADER */
@@ -76,16 +79,27 @@ li {
 
 /* MAIN */
 
+.row {
+    margin-top: 150px;
+}
+
 .tab {
-    /* width: calc(100% / 3 - 40px); */
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+}
+
+.showed {
+    display: inline-block;
+    width:100%;
 }
 
 .hidden {
     display:none;
+    width: 100%;
 }
 
 .col:hover .hidden {
-    display: block;
+    display: inline-block;
 }
 
 .col:hover .showed {
@@ -104,14 +118,47 @@ li {
     background-color: red;
     color:#fff;
     padding: 5px;
+    position:relative;
+    bottom: 90px;
+    right: 100px;
 }
 
 .sost {
     background-color: green;
     color: #fff;
     padding: 5px;
+    position:relative;
+    bottom: 90px;
+    right: 100px;
 }
 
 .heart:hover {
     color:red;
+}
+
+.heart {
+    font-size: 30px;
+    position:relative;
+    bottom: 635px;
+    left: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1a1a1a;
+    color:#fff;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infolink {
+    margin-right: 10px;
+}
+
+.info, .contatti {
+    padding: 20px;
 }

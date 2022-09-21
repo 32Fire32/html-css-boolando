@@ -73,3 +73,45 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+/* MAIN */
+
+.tab {
+    /* width: calc(100% / 3 - 40px); */
+}
+
+.hidden {
+    display:none;
+}
+
+.col:hover .hidden {
+    display: block;
+}
+
+.col:hover .showed {
+    display: none;
+}
+
+.price {
+    color: red;
+}
+
+.correction {
+    text-decoration: line-through;
+}
+
+.discount {
+    background-color: red;
+    color:#fff;
+    padding: 5px;
+}
+
+.sost {
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.heart:hover {
+    color:red;
+}

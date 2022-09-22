@@ -8,7 +8,7 @@
 /* COMMON */
 
 .container {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -98,6 +98,10 @@ li {
     width: 100%;
 }
 
+.col {
+    position:relative;
+}
+
 .col:hover .hidden {
     display: inline-block;
 }
@@ -118,23 +122,18 @@ li {
     background-color: red;
     color:#fff;
     padding: 5px;
-    position:relative;
-    bottom: 80px;
-    right: 30px;
+    position:absolute;
+    bottom: 50px;
+    left: 0px;
 }
 
 .sost {
     background-color: green;
     color: #fff;
     padding: 5px;
-    position:relative;
-    bottom: 80px;
-    right: 30px;
-}
-
-.description {
-    position: relative;
-    bottom: 35px;
+    position:absolute;
+    bottom: 50px;
+    left: 50px;
 }
 
 .heart:hover {
@@ -143,8 +142,8 @@ li {
 
 .heart {
     font-size: 30px;
-    position:relative;
-    bottom: 600px;
+    position:absolute;
+    top: 30px;
     left: 370px;
 }
 

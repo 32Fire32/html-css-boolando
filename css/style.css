@@ -61,7 +61,7 @@ li {
 }
 
 .logo {
-    width:70%;
+    width:60%;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ li {
 }
 
 .nav-right {
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;

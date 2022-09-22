@@ -132,6 +132,11 @@ li {
     right: 30px;
 }
 
+.description {
+    position: relative;
+    bottom: 35px;
+}
+
 .heart:hover {
     color:red;
 }
